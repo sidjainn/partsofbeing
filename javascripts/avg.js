@@ -59,8 +59,8 @@ var svg = d3.select("body")
     } catch (e) {}
   }
 
-  var fieldRadiusScaleH = readFieldRadiusStored(FIELD_RADIUS_LS_H, 1);
-  var fieldRadiusScaleV = readFieldRadiusStored(FIELD_RADIUS_LS_V, 1);
+  var fieldRadiusScaleH = readFieldRadiusStored(FIELD_RADIUS_LS_H, 3);
+  var fieldRadiusScaleV = readFieldRadiusStored(FIELD_RADIUS_LS_V, 1.5);
 
   function clampFieldRadius(v) {
     return Math.max(0.1, Math.min(3, v));
