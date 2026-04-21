@@ -9,62 +9,15 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title>Website title</title>
     <link rel="shortcut icon" type="image/png" href="images/avsymbol.svg">
-    <link href="stylesheets/material.css" rel="stylesheet" />
     <link href="stylesheets/site.css" rel="stylesheet" />
-    <script src="javascripts/material.js"></script>
-    <script src="javascripts/d3.v4.min.js"></script>
-    <script src="javascripts/avg.js"></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.orange-pink.min.css" />
+    <script src="javascripts/d3.v4.min.js" defer></script>
+    <script src="javascripts/avg.js" defer></script>
   </head>
 
   <body class="index">
-
-
-    <div class="page-content"><div class="temp">
-
-</div>
-<!--
-<div class="mdl-grid">
-    <div class="mdl-layout-spacer"></div>
-    <div class="mdl-cell mdl-cell--10-col">
-
-      <div class="wide-card mdl-card mdl-shadow--2dp">
-         <div class="mdl-card__title">
-           <h2 class="mdl-card__title-text">Day-wise food wastage per person</h2>
-           <div class="mdl-layout-spacer"></div>
-           <button id="increase" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-            Increase
-           </button>
-           <button id="decrease" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-            Decrease
-           </button>
-         </div>
-         <div class="mdl-card__actions mdl-card--border">
-           <div class="avg"></div>
-         </div>
-      </div>
-
-
+    <div class="page-content">
+      <div class="temp"></div>
     </div>
-    <div class="mdl-layout-spacer"></div>
-</div>
-
--->
-<!--<script type="text/javascript">
-function updateGraph(d) {
- var active   = toggleCount.active ? false : true,
- newOpacity = active ? 0 : 1;
- d3.select("#toggleCount").style("opacity", newOpacity);
- d3.selectAll("#toggleCircle").style("opacity", newOpacity);
- d3.select("#toggleLabel").style("opacity", newOpacity);
- d3.select("#toggleAxis").style("opacity", newOpacity);
- toggleCount.active = active;
-}
-
-</script>
-</div>
 
   </body>
 </html>
