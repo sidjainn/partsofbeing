@@ -2,6 +2,12 @@
 
 Static single-page artwork built with plain HTML, CSS, and D3.
 
+## Visualization
+
+<a href="https://sidjainn.github.io/partsofbeing/">Open the visualization</a>
+
+The toroidal field is a representation of stillness and a kind of oneness with the space around. The radiating field from the heart center is to represent the opening of the heart and connection with the psychic.
+
 ## Run locally
 
 1. Open a terminal in the project folder
